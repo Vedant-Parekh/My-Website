@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="../css/style_hobbies.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="../js/script2.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse nvb">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand hl" href="index.html"><b>Vedant</b></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a class="hl" href="about.html">About Me</a></li>
+            <li class="active"><a class="hl" href="hobbies.html">My Hobbies</a></li>
+            <li><a class="hl" href="cat.html">Cat Pictures</a></li>
+          </ul>
+        </div>
+    </nav>
+	<div id="titlepage">
+		<h1><i><b>My Hobbies</b></i></h1>
+		<hr class="titleline">
+	</div>
+	<div id="shortcuts">
+		<div class="icon"><a href="#chess"><img class="icon_img" src="../img/chessicon.png"></a></div>
+		<div class="icon"><a href="#cp"><img class="icon_img" src="../img/codeicon.png"></a></div>
+		<div class="icon"><a href="#reading"><img class="icon_img" src="../img/bookicon.png"></a></div>
+	</div>
+    <div id="chess">
+		<h1><b><i>CHESS</i></b></h1>
+		<div id="chspic"><img id="chessboard" class="icon_img" src="../img/chess/m1.jpg"></div>
+		<div id="tb">
+			<p>I learnt how to play chess as a kid.
+				During the lockdown my friends and I were looking for games that we could play online and we turned to chess.
+				This was when I started playing chess regularly.<br><br>
+				There is no better way to explain why I like chess than to show you a really beautiful game.<br>
+				<b>Here is a game between Edward Lasker (white) and George Thomas London (black)</b>
+				Use these buttons to navigate through the game.
+				<div id="nxtbutton">
+					<button onclick="back()"><span class="glyphicon glyphicon-step-backward"></span></button>
+					<button onclick="front()"><span class="glyphicon glyphicon-step-forward"></span></button>
+				</div>
+			</p>
+		</div>
+	</div>
+
+	<div id="cp">
+		<h1><b><i>COMPETITIVE PROGRAMMING</i></b></h1>
+		<div id="cp_content" style="display:inline-block">
+			<table class="table">
+				<tr>
+					<th class="text-center" colspan="3">Your opinion about my skills</th>
+				</tr>
+				<tr>
+					<td class="text-center">Name</td>
+					<td class="text-center">Programming Language</td>
+					<td class="text-center">Proficiency</td>
+				</tr>
+				<tr>
+					<td class="text-center">Vedant</td>
+					<td class="text-center">CSS</td>
+					<td class="text-center">pupil</td>
+				</tr>
+			</table>
+		</div>
+		<div class="vl"></div>
+		<div id="tb2">
+			<p>I enjoy competitive programming and coding in general.
+				My user name on codeforces is <b>vedant_parekh</b>, give me a follow if you like.
+				Also if you know me, fill the form below to let me know what you think of my programming skills<br><br>
+			</p>
+			<form>
+				<label for="name">Your Name: &ensp;</label>
+				<input  id="form_name" type="text" name="name" value></input>
+				<br>
+				<label for="lang">Programming Language: &ensp;</label>
+				<select id="form_lang" name="lang">
+					<option>Java</option>
+					<option>C</option>
+					<option>C++</option>
+					<option>Bash</option>
+					<option>HTML</option>
+					<option>CSS</option>
+					<option>JavaScript</option>
+					<option>Python</option>
+				</select>
+				<br>
+				<label for="prof">Proficiency: &ensp;</label>
+				<select  id="form_prof" name="prof">
+					<option>newbie</option>
+					<option>pupil</option>
+					<option>specialist</option>
+					<option>expert</option>
+					<option>candidate master</option>
+					<option>master</option>
+					<option>international master</option>
+					<option>grandmaster</option>
+					<option>international grandmaster</option>
+					<option>legendary grandmaster</option>
+				</select>
+				<br>
+				<input type="button" value="Enter" onclick="updateTable()">
+			</form>
+		</div>
+	</div>
+
+	<div id="reading">
+		<h1><b><i>READING</i></b></h1>
+		<div class="reading_content">
+			<div id="tb3">
+				I enjoy reading all kinds of books. I am currently reading Animal Farm by George Orwell. 
+				If you know a book that you think I will like, do let me know.
+				I am always looking for good books.
+				If this paragraph feels like something written by a 3rd grader, I'd like to remind you that my hobby is reading not writing.
+			</div>
+		</div>
+	</div>
+</body>
+</html>

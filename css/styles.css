@@ -1,0 +1,68 @@
+body {
+  background-color: whitesmoke;
+}
+
+#welcome {
+  margin-left: 33%;
+  width: 34%;
+  margin-right: 33%;
+  margin-top: 25vmin;
+}
+
+#logo {
+  width: auto;
+  height: auto;
+  padding: 6%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 60% */
+}
+
+#Mysearchbar {
+  height: 18px;
+  padding: 13px;
+  /* padding-left: 10px; */
+  width: auto;
+  font-size: 18px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: 30px;
+}
+
+#text {
+  max-width: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+#cursor {
+  display: inline-block;
+	width: 1px;
+	height: 18px;
+	background-color: black;
+	animation: blink .75s step-end infinite;
+}
+
+#Mybuttons {
+  width: auto;
+  height: 50px;
+  text-align: center;
+}
+
+#Mybuttons li {
+  list-style-type: none;
+  display: inline;
+}
+
+#Mybuttons li button {
+  height: 36px;
+  /* font-weight: bold; */
+}
+
+
+
+

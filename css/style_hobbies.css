@@ -1,0 +1,166 @@
+body {
+    background-color: #cccccc;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.titleline {
+    border: 2px solid white;
+    width: 65%;
+    border-radius: 3px;
+}
+
+#titlepage {
+    padding-top: 25vh;
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    text-align:center;
+    height: 95vh;
+}
+
+#titlepage h1 {
+    font-size: 60px;
+    font-family: 'Dekko';
+    color: aliceblue;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+#shortcuts {
+    /* height: 30vh; */
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background-color: #50c6c6;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: inline-block;
+    background-color: darkcyan;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    width: 12%;
+    height: 12%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    align-self: center;
+}
+.icon:hover {
+    background-color: white;
+}
+
+.icon_img{
+    width: 100%;
+    height: 100%;
+}
+
+#shortcutlist {
+    text-align: center;
+    /* display: inline; */
+}
+  
+#shortcutlist li {
+    list-style-type: none;
+    display: inline;
+}
+
+#chess {
+    background-color: rgb(1, 85, 85);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#chess h1 {
+    color: white;
+    text-align: center;
+}
+#chspic {
+    display: inline-block;
+    border: 2px solid white;
+    width: 30%;
+    margin-right: 3%;
+}
+#tb {
+    width: 65%;
+    padding: 3%;
+    color: white;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(154, 192, 194, 0.2);
+    max-height: 30%;
+    font-size: 14px;
+    /* max-width: 60%; */
+}
+#nxtbutton{
+    color: black;
+    width: 100%;
+    margin-left: 45%;
+}
+#nxtbutton button {
+    display:inline-block;
+}
+
+#cp {
+    background-color: #50c6c6;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#cp h1 {
+    text-align: center;
+}
+#cp_content {
+    width: 55%;
+}
+#tb2 {
+    width: 39%;
+    padding: 3%;
+    color: black;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(154, 192, 194, 0.2);
+    max-height: 30%;
+    font-size: 14px;
+}
+.vl {
+    display: inline-block;
+    border-left: 6px solid white;
+    height: 150px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#reading {
+    background-color: rgb(1, 85, 85);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#reading h1 {
+    color: white;
+    text-align: center;
+}
+#tb3 {
+    width: 100%;
+    padding: 3%;
+    color: white;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(154, 192, 194, 0.2);
+    max-height: 30%;
+    font-size: 20px;
+}

@@ -1,0 +1,95 @@
+.bkg {
+    background-image: url('../img/wallpaper.jpg');
+    max-width: 100%;
+    overflow-x: hidden;
+    background-size: cover; 
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+}
+
+#titlepage {
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    text-align:center;
+}
+
+#titlepage h1 {
+    font-size: 60px;
+    font-family: 'Dekko';
+    color: aliceblue;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2); */
+}
+
+.titleline {
+    border: 2px solid white;
+    width: 65%;
+    border-radius: 3px;
+}
+
+.slideshow {
+    display:inline-block;
+    border: 2px solid white;
+    width: 40%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.catpics {
+    width: 100%;
+    height: 100%;
+}
+.prf {
+    width: 100%;
+    height: 100%;
+}
+
+#profile {
+    display:inline-block;
+    border: 2px solid white;
+    height: 80vh;
+    width: 32%;
+    border-radius: 2%;
+    /* margin-left: 6%; */
+    position: absolute;
+    left: 6%;
+    top: 40%;
+    /* margin-bottom: 30%; */
+}
+
+#tbabout {
+    position: absolute;
+    top: 40%;
+    right: 6%;
+    width: 50%;
+    height: 80%;
+    padding: 3%;
+    color: white;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    border-radius: 2%;
+    background-color: rgba(154, 192, 194, 0.2);
+    font-size: 14px;
+    backdrop-filter: blur(5px);
+    /* max-width: 60%; */
+}
+
+#bottom {
+    margin-bottom: 5%;
+    position: absolute;
+    top: 123%;
+    left: 17%;
+}
+
+.ci {
+    margin-left: 2%;
+    padding: 1%;
+    height: 10%;
+    width: 10%;
+}
